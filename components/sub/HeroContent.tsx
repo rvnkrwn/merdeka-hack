@@ -88,20 +88,36 @@ const HeroContent = () => {
           </span>
         </motion.div>
 
-        <motion.p
-          className="text-4xl md:text-5xl text-gray-400 my-5 max-w-[600px] md:leading-[3.5rem] font-black tracking-wide"
-        >
-          <motion.span variants={slideInFromTop(1.4)} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Ultimate</motion.span>
-          {" "}
-          <motion.span variants={slideInFromBottom(1.1)} className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500">CTF</motion.span>
-          {" "}
-          <motion.span variants={slideInFromTop(1.2)}>&</motion.span>
-          {" "}
-          <motion.span variants={slideInFromBottom(1.3)} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-cyan-500 to-orange-500">Web Development</motion.span>
-          {" "}
-          <motion.span variants={slideInFromTop(1.4)} className="from-purple-500 to-cyan-500">by</motion.span>
-          {" "}
-          <motion.span variants={slideInFromBottom(1.5)} className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500">Sircle</motion.span>
+        <motion.p className="text-4xl md:text-5xl text-gray-400 my-5 max-w-[600px] md:leading-[3.5rem] font-black tracking-wide">
+          <motion.span
+            variants={slideInFromTop(1.4)}
+            className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
+          >
+            Ultimate
+          </motion.span>{' '}
+          <motion.span
+            variants={slideInFromBottom(1.1)}
+            className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500"
+          >
+            CTF
+          </motion.span>{' '}
+          <motion.span variants={slideInFromTop(1.2)}>&</motion.span>{' '}
+          <motion.span
+            variants={slideInFromBottom(1.3)}
+            className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-cyan-500 to-white"
+          >
+            Web Development
+          </motion.span>{' '}
+          <motion.span variants={slideInFromTop(1.4)}>by</motion.span>{' '}
+          <motion.span
+            variants={slideInFromBottom(1.5)}
+            className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-white"
+          >
+            Sircle
+          </motion.span>{' '}
+          <motion.span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500">
+            In Collaboration With AWSCC Indonesia
+          </motion.span>
         </motion.p>
 
         {showRegistration ? (
@@ -109,7 +125,9 @@ const HeroContent = () => {
             <motion.a
               variants={slideInFromTop(1.4)}
               href="https://ittp.id/merdekahack-regist" // Ganti dengan link form pendaftaran WEB DEV
-              className={`py-2 button-primary text-center text-white cursor-pointer mx-auto px-10 rounded-lg max-w-[220px] ${buttonDisabled ? 'cursor-not-allowed opacity-50' : ''}`}
+              className={`py-2 button-primary text-center text-white cursor-pointer mx-auto px-10 rounded-lg max-w-[220px] ${
+                buttonDisabled ? 'cursor-not-allowed opacity-50' : ''
+              }`}
               onClick={(e) => buttonDisabled && e.preventDefault()}
             >
               Daftar Sekarang
@@ -124,6 +142,12 @@ const HeroContent = () => {
             {`${timeLeft.days}d ${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
           </motion.div>
         )}
+        <motion.p
+          variants={slideInFromBottom(1.4)}
+          className="text-gray-400 w-fit mx-auto rounded-md my-2 text-sm"
+        >
+          catatan: tidak ada pemungutan biaya apapun.
+        </motion.p>
         <motion.div
           variants={slideInFromBottom(1.2)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"

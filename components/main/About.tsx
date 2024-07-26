@@ -31,18 +31,18 @@ const About = () => {
           height={18}
           className="cursor-pointer hover:animate-slowspin"
         />
-        {/* <Image
+        {/* {/* <Image
           src="/rplm.png"
           alt="logo"
           width={25}
           height={25}
           className="cursor-pointer hover:animate-slowspin"
-        />
-        <Image
-          src="/ti.png"
+        /> */}
+        {/* <Image
+          src="/AWS Cloud Club Logo Purple.png"
           alt="logo"
-          width={25}
-          height={25}
+          width={40}
+          height={40}
           className="cursor-pointer hover:animate-slowspin"
         /> */}
       </div>

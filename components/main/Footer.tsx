@@ -8,6 +8,7 @@ import {
 } from "react-icons/rx";
 
 import { FaYoutube } from "react-icons/fa";
+import Image from "next/image"
 
 const Footer = () => {
   return (
@@ -64,7 +65,13 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center mt-10">
-                &copy; Sircle 2024 Inc. All rights reserved
+                <p>&copy; Sircle 2024 Inc. All rights reserved</p>
+                <p className="flex items-center justify-center mb-2">
+                    <span>Powered by</span>
+                    {" "}
+                    <a href="https://www.linkedin.com/company/awscloudclubid" target="_blank">AWSCC Indonesia.</a>
+                </p>
+                <p className="text-gray-400">Developed by <a href="https://github.com/rvnkrwn">rvnkrwn</a>.</p>
             </div>
         </div>
     </div>
