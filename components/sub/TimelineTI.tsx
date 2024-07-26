@@ -5,10 +5,13 @@ const TimelineTI = () => {
         <div className="grid gap-4 mx-4 sm:grid-cols-12">
           <div className="col-span-12 sm:col-span-3">
             <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-600">
-              <h3 className="text-3xl font-semibold">Timeline TI CTF</h3>
+              <h3 className="text-3xl font-semibold">Timeline Capture the Flag</h3>
               <span className="text-sm font-bold tracking-wider uppercase text-gray-400">
                 Jadwal Kegiatan
               </span>
+              <br />
+              <br />
+              <a className="border p-2 mt-6" href="https://ittp.id/merdekahack-ctf-guidebook" target="_blank">Guided Book</a>
             </div>
           </div>
           <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
