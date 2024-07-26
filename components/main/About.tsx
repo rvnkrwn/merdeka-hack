@@ -31,7 +31,7 @@ const About = () => {
           height={18}
           className="cursor-pointer hover:animate-slowspin"
         />
-        <Image
+        {/* <Image
           src="/rplm.png"
           alt="logo"
           width={25}
@@ -44,7 +44,7 @@ const About = () => {
           width={25}
           height={25}
           className="cursor-pointer hover:animate-slowspin"
-        />
+        /> */}
       </div>
       <AboutText />
     </section>
