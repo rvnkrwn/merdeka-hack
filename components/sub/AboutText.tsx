@@ -29,7 +29,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="text-gray-200 mb-10 mt-[10px] text-center max-w-[60rem]"
       >
-        <motion.p className="font-thin">
+        <motion.p>
           MerdekaHack by Sircle adalah sebuah inisiatif yang bertujuan untuk
           meningkatkan kreativitas dan keterampilan mahasiswa dalam rangka
           merayakan Hari Kemerdekaan Indonesia. Acara ini dirancang untuk
@@ -43,7 +43,7 @@ const SkillText = () => {
         <motion.h2 className="font-black text-xl">
           Lomba Landing Page Competition
         </motion.h2>
-        <motion.p>
+        <motion.p className="font-semibold">
           Jika Anda memiliki minat dan bakat dalam desain web, Lomba Landing
           Page Competition adalah kesempatan sempurna untuk Anda. Dalam lomba
           ini, peserta ditantang untuk merancang dan mengembangkan halaman

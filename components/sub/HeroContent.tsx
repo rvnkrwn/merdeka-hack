@@ -82,7 +82,7 @@ const HeroContent = () => {
         </motion.div>
 
         <motion.p
-          className="text-5xl text-gray-400 my-5 max-w-[600px] leading-[3.5rem] font-black tracking-wide"
+          className="text-3xl md:text-5xl text-gray-400 my-5 max-w-[600px] md:leading-[3.5rem] font-black tracking-wide"
         >
           <motion.span variants={slideInFromTop(1.4)} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Ultimate</motion.span>
           {" "}
