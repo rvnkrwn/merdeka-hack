@@ -29,7 +29,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="text-gray-200 mb-10 mt-[10px] text-center max-w-[60rem]"
       >
-        <motion.p>
+        <motion.p className="font-semibold">
           MerdekaHack by Sircle adalah sebuah inisiatif yang bertujuan untuk
           meningkatkan kreativitas dan keterampilan mahasiswa dalam rangka
           merayakan Hari Kemerdekaan Indonesia. Acara ini dirancang untuk
@@ -57,7 +57,7 @@ const SkillText = () => {
         <motion.h2 className="font-black text-xl">
           Lomba Capture the Flag (CTF) Competition
         </motion.h2>
-        <motion.p>
+        <motion.p className="font-semibold">
           Bagi Anda yang suka dengan tantangan dan memiliki kemampuan dalam
           bidang keamanan siber, Lomba Capture the Flag Competition adalah
           tempatnya. Kompetisi ini menuntut peserta untuk menyelesaikan berbagai
