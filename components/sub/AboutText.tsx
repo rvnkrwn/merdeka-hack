@@ -41,11 +41,10 @@ const SkillText = () => {
         </motion.p>
         <br />
         <motion.h2 className="font-black text-xl">
-          Lomba Landing Page Competition
+          Web Development Competition
         </motion.h2>
         <motion.p className="font-semibold">
-          Jika Anda memiliki minat dan bakat dalam desain web, Lomba Landing
-          Page Competition adalah kesempatan sempurna untuk Anda. Dalam lomba
+          Jika Anda memiliki minat dan bakat dalam desain web, Web Development Competition adalah kesempatan sempurna untuk Anda. Dalam lomba
           ini, peserta ditantang untuk merancang dan mengembangkan halaman
           landing page yang menarik, fungsional, dan responsif. Lomba ini
           bertujuan untuk mendorong kreativitas dalam menciptakan antarmuka
@@ -55,7 +54,7 @@ const SkillText = () => {
         </motion.p>
         <br />
         <motion.h2 className="font-black text-xl">
-          Lomba Capture the Flag (CTF) Competition
+          Capture the Flag Competition
         </motion.h2>
         <motion.p className="font-semibold">
           Bagi Anda yang suka dengan tantangan dan memiliki kemampuan dalam

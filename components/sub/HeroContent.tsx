@@ -19,6 +19,7 @@ const HeroContent = () => {
     seconds: 0,
   });
   const [showRegistration, setShowRegistration] = useState(false);
+  const [buttonDisabled, setButtonDisabled] = useState(false);
 
   useEffect(() => {
     const targetDate = new Date('August 1, 2024 00:00:00').getTime();
@@ -32,6 +33,12 @@ const HeroContent = () => {
         setShowRegistration(true);
       } else {
         setShowRegistration(false);
+      }
+
+      if (now > registrationEndDate) {
+        setButtonDisabled(true);
+      } else {
+        setButtonDisabled(false);
       }
 
       if (distance < 0) {
@@ -90,7 +97,7 @@ const HeroContent = () => {
           {" "}
           <motion.span variants={slideInFromTop(1.2)}>&</motion.span>
           {" "}
-          <motion.span variants={slideInFromBottom(1.3)} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-cyan-500 to-orange-500">Landing Page Development</motion.span>
+          <motion.span variants={slideInFromBottom(1.3)} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-cyan-500 to-orange-500">Web Development</motion.span>
           {" "}
           <motion.span variants={slideInFromTop(1.4)} className="from-purple-500 to-cyan-500">by</motion.span>
           {" "}
@@ -102,7 +109,8 @@ const HeroContent = () => {
             <motion.a
               variants={slideInFromTop(1.4)}
               href="https://ittp.id/merdekahack-regist" // Ganti dengan link form pendaftaran WEB DEV
-              className="py-2 button-primary text-center text-white cursor-pointer mx-auto px-10 rounded-lg max-w-[220px]"
+              className={`py-2 button-primary text-center text-white cursor-pointer mx-auto px-10 rounded-lg max-w-[220px] ${buttonDisabled ? 'cursor-not-allowed opacity-50' : ''}`}
+              onClick={(e) => buttonDisabled && e.preventDefault()}
             >
               Daftar Sekarang
             </motion.a>
@@ -110,7 +118,7 @@ const HeroContent = () => {
         ) : (
           <motion.div
             variants={slideInFromTop(1)}
-            className="py-2 button-primary text-center text-white mx-auto px-10 rounded-lg max-w-[220px]"
+            className="py-2 button-primary text-center text-white mx-auto px-10 rounded-lg max-w-[220px] cursor-progress select-none"
             id="countdown"
           >
             {`${timeLeft.days}d ${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
