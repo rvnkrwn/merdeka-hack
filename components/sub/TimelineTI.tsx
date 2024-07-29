@@ -21,16 +21,15 @@ const TimelineTI = () => {
                   Pendaftaran Peserta
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
-                  1-10 Agustus 2024
+                  1-14 Agustus 2024
                 </time>
                 <p className="mt-3 text-gray-300">
-                  Pendaftaran untuk peserta TI CTF dibuka mulai tanggal 1
-                  Agustus hingga 10 Agustus 2024.
+                Pendaftaran untuk peserta bidang lomba Capture the Flag dibuka mulai tanggal 1 Agustus hingga 14 Agustus 2024.
                 </p>
               </div>
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
                 <h3 className="text-xl font-semibold tracking-wide">
-                  Pengerjaan CTF
+                  Pengerjaan
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
                   15 Agustus 2024
@@ -44,10 +43,10 @@ const TimelineTI = () => {
                   Pengumpulan
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
-                  16 Agustus 2024
+                  17 Agustus 2024
                 </time>
                 <p className="mt-3 text-gray-300">
-                  Tanggal akhir untuk mengumpulkan hasil CTF oleh peserta.
+                Batas Pengumpulan Writeup 17 Agustus 2024
                 </p>
               </div>
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">

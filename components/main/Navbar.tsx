@@ -64,16 +64,16 @@ const Navbar = () => {
               />
             </div>
             <div className="p-8 h-full flex flex-col items-center justify-center gap-4 text-3xl">
-              <a href="#home">Beranda</a>
-              <a href="#about">Tentang Kami</a>
+              <a href="#home">Home</a>
+              <a href="#about">MerdekaHack</a>
               <a href="#timeline">Timeline</a>
             </div>
           </div>
         )}
 
         <div className="hidden md:flex text-white gap-6 items-center">
-          <a href="#home">Beranda</a>
-          <a href="#about">Tentang Kami</a>
+          <a href="#home">Home</a>
+          <a href="#about">MerdekaHack</a>
           <a href="#timeline">Timeline</a>
         </div>
 

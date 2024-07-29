@@ -116,7 +116,7 @@ const HeroContent = () => {
             Sircle
           </motion.span>{' '}
           <motion.span variants={slideInFromBottom(1.7)} className="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500">
-            In Collaboration With AWSCC Indonesia
+            In Collaboration With AWS Cloud Club
           </motion.span>
         </motion.p>
 
