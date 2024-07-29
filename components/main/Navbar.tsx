@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { LiaTimesSolid } from 'react-icons/lia';
+import { motion } from 'framer-motion';
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -10,6 +11,7 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from 'react-icons/rx';
+import { slideInFromBottom, slideInFromLeft } from '@/utils/motion';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,14 +41,15 @@ const Navbar = () => {
           aria-label="Open menu"
         />
         {isMenuOpen && (
-          <div
+          <motion.div
+            variants={slideInFromLeft(1)}
             id="menu-mobile"
-            className="fixed z-[99999] bg-black text-white h-[100vh] w-[100vw] left-0 top-0 p-4 py-6"
+            className="fixed z-[99999] bg-black text-white h-[100vh] w-[100vw] left-0 top-0 p-4"
           >
-            <div className="flex justify-between items-center px-4">
-              <a
+            <motion.div className="flex justify-between items-center px-4 gap-2">
+              <motion.a
                 href="#about-me"
-                className="h-auto w-auto flex flex-row items-center"
+                className="h-auto w-auto flex flex-row items-center gap-2 justify-start"
               >
                 <Image
                   src="/NavLogo.png"
@@ -55,20 +58,20 @@ const Navbar = () => {
                   height={20}
                   className="cursor-pointer hover:animate-slowspin"
                 />
-                <p className="font-bold ml-[10px] text-gray-300">Sircle R&D</p>
-              </a>
+                <motion.p className="font-black ml-[10px] text-gray-300">Sircle R&D</motion.p>
+              </motion.a>
               <LiaTimesSolid
                 className="text-xl cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
                 aria-label="Close menu"
               />
-            </div>
-            <div className="p-8 h-full flex flex-col items-center justify-center gap-4 text-3xl">
-              <a href="#home">Home</a>
-              <a href="#about">MerdekaHack</a>
-              <a href="#timeline">Timeline</a>
-            </div>
-          </div>
+            </motion.div>
+            <motion.div className="p-8 h-full flex flex-col items-center justify-center gap-6 text-3xl tracking-wider">
+              <motion.a variants={slideInFromBottom(1.2)} href="#home">Home</motion.a>
+              <motion.a variants={slideInFromBottom(1.4)} href="#about">MerdekaHack</motion.a>
+              <motion.a variants={slideInFromBottom(1.6)} href="#timeline">Timeline</motion.a>
+            </motion.div>
+          </motion.div>
         )}
 
         <div className="hidden md:flex text-white gap-6 items-center">
