@@ -1,4 +1,4 @@
-import React from "react";
+ĺimport React from "react";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -67,11 +67,8 @@ const Footer = () => {
             <div className="mb-[20px] text-[15px] text-center mt-10">
                 <p>&copy; Sircle 2024 Inc. All rights reserved</p>
                 <p className="flex items-center justify-center mb-2">
-                    <span>Powered by</span>
-                    {" "}
-                    <a href="https://www.linkedin.com/company/awscloudclubid" target="_blank">AWSCC Indonesia.</a>
+                    <a href="https://www.linkedin.com/company/awscloudclubid" target="_blank">In Collaboration With AWS Cloud Club.</a>
                 </p>
-                <p className="text-gray-400">Developed by <a href="https://github.com/rvnkrwn">rvnkrwn</a>.</p>
             </div>
         </div>
     </div>
