@@ -9,7 +9,7 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MerdekaHack",
+  title: "Sircle | MerdekaHack",
   description: "Sircle Event Competition",
   keywords: ['merdekahack', 'sircle ittp competition', 'sircle event agustus 2024', 'sircle', 'sircle ittp', 'sircle web development', 'sircle ctf'],
   icons: '/NavLogo.png'
