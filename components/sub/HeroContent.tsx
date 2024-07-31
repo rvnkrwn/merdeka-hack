@@ -120,7 +120,6 @@ const HeroContent = () => {
           </motion.span>
         </motion.p>
 
-        {showRegistration ? (
           <motion.div className="flex flex-col items-center gap-6">
             <motion.a
               variants={slideInFromTop(1.4)}
@@ -133,15 +132,7 @@ const HeroContent = () => {
               Daftar Sekarang
             </motion.a>
           </motion.div>
-        ) : (
-          <motion.div
-            variants={slideInFromTop(1)}
-            className="py-2 button-primary text-center text-white mx-auto px-10 rounded-lg max-w-[220px] cursor-progress select-none"
-            id="countdown"
-          >
-            {`${timeLeft.days}d ${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
-          </motion.div>
-        )}
+        
         <motion.p
           variants={slideInFromBottom(1.4)}
           className="text-gray-400 w-fit mx-auto rounded-md my-2 text-sm"
