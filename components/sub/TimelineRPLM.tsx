@@ -11,7 +11,7 @@ const TimelineRPLM = () => {
               </span>
               <br />
               <br />
-              <a className="border p-2 mt-6" href="https://ittp.id/merdekahack-webdev-guidebook" target="_blank">Guided Book</a>
+              <a className="border p-2 mt-6 rounded-md" href="https://ittp.id/merdekahack-webdev-guidebook" target="_blank">Guided Book</a>
             </div>
           </div>
           <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
@@ -21,10 +21,10 @@ const TimelineRPLM = () => {
                   Pendaftaran Peserta
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
-                  1-10 Agustus 2024
+                  2-10 Agustus 2024
                 </time>
                 <p className="mt-3 text-gray-300">
-                Pendaftaran untuk bidang lomba Web Development dibuka mulai tanggal 1 Agustus hingga 10 Agustus 2024
+                Pendaftaran untuk bidang lomba Web Development dibuka mulai tanggal 2 Agustus hingga 10 Agustus 2024
                 </p>
               </div>
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">

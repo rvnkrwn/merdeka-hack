@@ -10,11 +10,11 @@ const About = () => {
       style={{ transform: "scale(0.9" }}
     >
       <div className="flex items-center gap-2 justify-center">
-      <Image
-          src="/NavLogo.png"
+        <Image
+          src="/logo-png.webp"
           alt="logo"
-          width={20}
-          height={20}
+          width={18}
+          height={18}
           className="cursor-pointer hover:animate-slowspin"
         />
         <Image
@@ -25,26 +25,19 @@ const About = () => {
           className="cursor-pointer hover:animate-slowspin"
         />
         <Image
-          src="/logo-png.webp"
+          src="/NavLogo.png"
           alt="logo"
-          width={18}
-          height={18}
+          width={20}
+          height={20}
           className="cursor-pointer hover:animate-slowspin"
         />
-        {/* {/* <Image
-          src="/rplm.png"
-          alt="logo"
-          width={25}
-          height={25}
-          className="cursor-pointer hover:animate-slowspin"
-        /> */}
-        {/* <Image
+        <Image
           src="/AWS Cloud Club Logo Purple.png"
           alt="logo"
-          width={40}
-          height={40}
+          width={35}
+          height={35}
           className="cursor-pointer hover:animate-slowspin"
-        /> */}
+        />
       </div>
       <AboutText />
     </section>
