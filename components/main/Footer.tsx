@@ -23,7 +23,7 @@ const Footer = () => {
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Youtube</span>
                     </a>
-                    <a href="#" className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="https://github.com/SIRCLE-RnD/" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>
                     </a>
