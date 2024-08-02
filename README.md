@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MerdekaHack
 
-## Getting Started
+**MerdekaHack** is an exciting competition organized by Sircle to celebrate Indonesian Independence Day. This event aims to foster creativity and enhance skills among students through two main competitions: Web Development and Capture the Flag (CTF).
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Web Development Competition
+Participants are tasked with designing and developing a functional, responsive landing page. This competition emphasizes creativity, technical skills, and user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Capture the Flag Competition
+The CTF competition challenges participants with cybersecurity puzzles that test their hacking skills. It includes various categories such as cryptography, web exploitation, reverse engineering, and forensics.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Important Dates
+- **Registration Opens:** Early August 2024
+- **Final Judging and Announcements:** Mid-August 2024
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to Contribute
+We welcome contributions from the community to make MerdekaHack even better. Here’s how you can help:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes.
+4. Submit a pull request for review.
 
-## Learn More
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+For more information, visit the [MerdekaHack website](https://merdekahack.ittp.id) or contact us at [sircle@ittelkom-pwt.ac.id](mailto:sircle@ittelkom-pwt.ac.id).
