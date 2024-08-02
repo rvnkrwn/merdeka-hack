@@ -32,7 +32,7 @@ const TimelineTI = () => {
                   Pengerjaan
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
-                  15 Agustus 2024
+                  14 Agustus 2024
                 </time>
                 <p className="mt-3 text-gray-300">
                   Peserta akan mengerjakan tantangan CTF pada tanggal ini.
@@ -43,10 +43,22 @@ const TimelineTI = () => {
                   Pengumpulan
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
+                  15 Agustus 2024
+                </time>
+                <p className="mt-3 text-gray-300">
+                Batas Pengumpulan Writeup 15 Agustus 2024
+                </p>
+              </div>
+              <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
+                <h3 className="text-xl font-semibold tracking-wide">
+                  Pengumuman Finalis Top 3
+                </h3>
+                <time className="text-xs tracking-wide uppercase text-gray-400">
                   17 Agustus 2024
                 </time>
                 <p className="mt-3 text-gray-300">
-                Batas Pengumpulan Writeup 17 Agustus 2024
+                  Pemenang top 3 akan diumumkan pada
+                  tanggal ini.
                 </p>
               </div>
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
