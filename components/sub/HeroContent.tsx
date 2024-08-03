@@ -123,7 +123,7 @@ const HeroContent = () => {
           <motion.div className="flex flex-col items-center gap-6">
             <motion.a
               variants={slideInFromTop(1.4)}
-              href="https://ittp.id/merdekahack-regist" // Ganti dengan link form pendaftaran WEB DEV
+              href="https://forms.ittp.id/s/clz2sdb4i0000rqspswh8rwtv" // Ganti dengan link form pendaftaran WEB DEV
               className={`py-2 button-primary text-center text-white cursor-pointer mx-auto px-10 rounded-lg max-w-[220px] ${
                 buttonDisabled ? 'cursor-not-allowed opacity-50' : ''
               }`}
