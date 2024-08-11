@@ -23,7 +23,7 @@ const HeroContent = () => {
 
   useEffect(() => {
     const targetDate = new Date('August 1, 2024 00:00:00').getTime();
-    const registrationEndDate = new Date('August 10, 2024 23:59:59').getTime();
+    const registrationEndDate = new Date('August 14, 2024 23:59:59').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
