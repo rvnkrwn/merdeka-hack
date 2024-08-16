@@ -53,13 +53,13 @@ const TimelineRPLM = () => {
               </div>
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
                 <h3 className="text-xl font-semibold tracking-wide">
-                  Pengumuman Finalis Top 5
+                  Pengumuman Finalis Top 3
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-gray-400">
                   17 Agustus 2024
                 </time>
                 <p className="mt-3 text-gray-300">
-                  Pengumuman finalis yang lolos ke tahap Top 5 akan dilakukan
+                  Pengumuman finalis yang lolos ke tahap Top 3 akan dilakukan
                   dalam periode ini.
                 </p>
               </div>
